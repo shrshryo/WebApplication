@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+* {
+    box-sizing: border-box;
+}
+
+
+/* .header {
+    border: 1px solid #DE584F;
+    padding: 15px;
+  } */
+
+.header {
+    border: 1px solid #DE584F;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #111;
+  } */
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* This is allocating layout spaces for how the website is going to be allocated the spaces for different contencts. */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #DE584F;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+    color: #777;
+    height: 200vh;
+    background-color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+[class*="button7"] {
+    background-color: #DE584F;
+}
+
+.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 2em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #DE584F(64, 199, 129);
+    box-shadow: 0 -3px #DE584F(53, 167, 110) inset;
+    transition: 0.2s;
+}
+
+.button7:hover {
+    background: #DE584F(206, 211, 208);
+}
+
+.button7:active {
+    background: #DE584F(206, 211, 208);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
